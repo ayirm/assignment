@@ -11,16 +11,16 @@ Let's create a representation of my favorite gene by assigning variables to its 
 ```python
 # Gene components
 promoter = "TATAAAG"
-utr_5 = "ATGCTA"
+5_utr_prime = "ATGCTA"
 start_codon = "ATG"
 exon1 = "AGTCTAG"
 intron = "GTACGTA"
 exon2 = "CTAGCTA"
 stop_codon = "TAA"
-utr_3 = "AATTAG"
+3_utr = "AATTAG"
 
 # Concatenate gene components
-favorite_gene = promoter + utr_5 + start_codon + exon1 + intron + exon2 + stop_codon + utr_3
+favorite_gene = promoter + 5_utr_prime + start_codon + exon1 + intron + exon2 + stop_codon +3_utr
 
 # Print the entire gene
 print(favorite_gene)
